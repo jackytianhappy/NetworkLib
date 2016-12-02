@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		7A6FDF82B941892BDBF95F82 /* libPods-JNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D2EE962938A6787E463F992 /* libPods-JNetwork.a */; };
+		854081831DF1111A00CF37EA /* JRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 854081821DF1111A00CF37EA /* JRequest.m */; };
+		854081861DF1141400CF37EA /* JNetworkEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 854081851DF1141400CF37EA /* JNetworkEngine.m */; };
+		854081891DF1171F00CF37EA /* JNetworkConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 854081881DF1171F00CF37EA /* JNetworkConfig.m */; };
+		8540818D1DF11F4800CF37EA /* DemoApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 8540818C1DF11F4700CF37EA /* DemoApi.m */; };
+		854081B41DF1523700CF37EA /* adn.cer in Resources */ = {isa = PBXBuildFile; fileRef = 854081B31DF1523700CF37EA /* adn.cer */; };
+		854081B71DF1566200CF37EA /* NSString+URL.m in Sources */ = {isa = PBXBuildFile; fileRef = 854081B61DF1566200CF37EA /* NSString+URL.m */; };
 		85B280981DF10EEE00E0AC85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B280971DF10EEE00E0AC85 /* main.m */; };
 		85B2809B1DF10EEE00E0AC85 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B2809A1DF10EEE00E0AC85 /* AppDelegate.m */; };
 		85B2809E1DF10EEE00E0AC85 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B2809D1DF10EEE00E0AC85 /* ViewController.m */; };
@@ -39,6 +45,17 @@
 /* Begin PBXFileReference section */
 		32F7EEE200AF0412891CA574 /* Pods-JNetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JNetwork.release.xcconfig"; path = "Pods/Target Support Files/Pods-JNetwork/Pods-JNetwork.release.xcconfig"; sourceTree = "<group>"; };
 		82D35D568D071FAAE7825C06 /* Pods-JNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JNetwork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JNetwork/Pods-JNetwork.debug.xcconfig"; sourceTree = "<group>"; };
+		854081811DF1111A00CF37EA /* JRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRequest.h; sourceTree = "<group>"; };
+		854081821DF1111A00CF37EA /* JRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRequest.m; sourceTree = "<group>"; };
+		854081841DF1141400CF37EA /* JNetworkEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNetworkEngine.h; sourceTree = "<group>"; };
+		854081851DF1141400CF37EA /* JNetworkEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNetworkEngine.m; sourceTree = "<group>"; };
+		854081871DF1171F00CF37EA /* JNetworkConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNetworkConfig.h; sourceTree = "<group>"; };
+		854081881DF1171F00CF37EA /* JNetworkConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNetworkConfig.m; sourceTree = "<group>"; };
+		8540818B1DF11F4700CF37EA /* DemoApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoApi.h; sourceTree = "<group>"; };
+		8540818C1DF11F4700CF37EA /* DemoApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoApi.m; sourceTree = "<group>"; };
+		854081B31DF1523700CF37EA /* adn.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = adn.cer; sourceTree = "<group>"; };
+		854081B51DF1566200CF37EA /* NSString+URL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URL.h"; sourceTree = "<group>"; };
+		854081B61DF1566200CF37EA /* NSString+URL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URL.m"; sourceTree = "<group>"; };
 		85B280931DF10EEE00E0AC85 /* JNetwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JNetwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85B280971DF10EEE00E0AC85 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		85B280991DF10EEE00E0AC85 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -103,9 +120,19 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		8540818A1DF11F1900CF37EA /* DemoApi */ = {
+			isa = PBXGroup;
+			children = (
+				8540818B1DF11F4700CF37EA /* DemoApi.h */,
+				8540818C1DF11F4700CF37EA /* DemoApi.m */,
+			);
+			path = DemoApi;
+			sourceTree = "<group>";
+		};
 		85B2808A1DF10EEE00E0AC85 = {
 			isa = PBXGroup;
 			children = (
+				854081B31DF1523700CF37EA /* adn.cer */,
 				85B280951DF10EEE00E0AC85 /* JNetwork */,
 				85B280AF1DF10EEE00E0AC85 /* JNetworkTests */,
 				85B280BA1DF10EEE00E0AC85 /* JNetworkUITests */,
@@ -128,6 +155,7 @@
 		85B280951DF10EEE00E0AC85 /* JNetwork */ = {
 			isa = PBXGroup;
 			children = (
+				8540818A1DF11F1900CF37EA /* DemoApi */,
 				85B280C91DF10F2400E0AC85 /* JNetwork */,
 				85B280991DF10EEE00E0AC85 /* AppDelegate.h */,
 				85B2809A1DF10EEE00E0AC85 /* AppDelegate.m */,
@@ -171,8 +199,16 @@
 		85B280C91DF10F2400E0AC85 /* JNetwork */ = {
 			isa = PBXGroup;
 			children = (
+				854081B51DF1566200CF37EA /* NSString+URL.h */,
+				854081B61DF1566200CF37EA /* NSString+URL.m */,
 				85B280CA1DF10F7700E0AC85 /* JBaseRequest.h */,
 				85B280CB1DF10F7700E0AC85 /* JBaseRequest.m */,
+				854081811DF1111A00CF37EA /* JRequest.h */,
+				854081821DF1111A00CF37EA /* JRequest.m */,
+				854081841DF1141400CF37EA /* JNetworkEngine.h */,
+				854081851DF1141400CF37EA /* JNetworkEngine.m */,
+				854081871DF1171F00CF37EA /* JNetworkConfig.h */,
+				854081881DF1171F00CF37EA /* JNetworkConfig.m */,
 			);
 			path = JNetwork;
 			sourceTree = "<group>";
@@ -291,6 +327,7 @@
 			files = (
 				85B280A61DF10EEE00E0AC85 /* LaunchScreen.storyboard in Resources */,
 				85B280A31DF10EEE00E0AC85 /* Assets.xcassets in Resources */,
+				854081B41DF1523700CF37EA /* adn.cer in Resources */,
 				85B280A11DF10EEE00E0AC85 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -365,8 +402,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				85B2809E1DF10EEE00E0AC85 /* ViewController.m in Sources */,
+				854081831DF1111A00CF37EA /* JRequest.m in Sources */,
 				85B2809B1DF10EEE00E0AC85 /* AppDelegate.m in Sources */,
+				8540818D1DF11F4800CF37EA /* DemoApi.m in Sources */,
+				854081861DF1141400CF37EA /* JNetworkEngine.m in Sources */,
+				854081891DF1171F00CF37EA /* JNetworkConfig.m in Sources */,
 				85B280981DF10EEE00E0AC85 /* main.m in Sources */,
+				854081B71DF1566200CF37EA /* NSString+URL.m in Sources */,
 				85B280CC1DF10F7700E0AC85 /* JBaseRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

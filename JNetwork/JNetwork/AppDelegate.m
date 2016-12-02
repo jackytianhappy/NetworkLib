@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "JNetworkConfig.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,11 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+    JNetworkConfig *_config = [JNetworkConfig sharedConfig];
+    _config.certName = @"adn";
+    _config.baseUrl = @"0.0.0.0:8080";
+    
     return YES;
 }
 

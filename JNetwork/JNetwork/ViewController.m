@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "JNetworkConfig.h"
+#import "DemoApi.h"
 
 @interface ViewController ()
 
@@ -16,7 +18,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+    DemoApi *demoApi = [[DemoApi alloc]initWithParams:@""];
+    
+    [demoApi start];
+    
+    
 }
 
 
