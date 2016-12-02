@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A6FDF82B941892BDBF95F82 /* libPods-JNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D2EE962938A6787E463F992 /* libPods-JNetwork.a */; };
+		85B280981DF10EEE00E0AC85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B280971DF10EEE00E0AC85 /* main.m */; };
+		85B2809B1DF10EEE00E0AC85 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B2809A1DF10EEE00E0AC85 /* AppDelegate.m */; };
+		85B2809E1DF10EEE00E0AC85 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B2809D1DF10EEE00E0AC85 /* ViewController.m */; };
+		85B280A11DF10EEE00E0AC85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85B2809F1DF10EEE00E0AC85 /* Main.storyboard */; };
+		85B280A31DF10EEE00E0AC85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85B280A21DF10EEE00E0AC85 /* Assets.xcassets */; };
+		85B280A61DF10EEE00E0AC85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85B280A41DF10EEE00E0AC85 /* LaunchScreen.storyboard */; };
+		85B280B11DF10EEE00E0AC85 /* JNetworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B280B01DF10EEE00E0AC85 /* JNetworkTests.m */; };
+		85B280BC1DF10EEE00E0AC85 /* JNetworkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B280BB1DF10EEE00E0AC85 /* JNetworkUITests.m */; };
+		85B280CC1DF10F7700E0AC85 /* JBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B280CB1DF10F7700E0AC85 /* JBaseRequest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		85B280AD1DF10EEE00E0AC85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85B2808B1DF10EEE00E0AC85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85B280921DF10EEE00E0AC85;
+			remoteInfo = JNetwork;
+		};
+		85B280B81DF10EEE00E0AC85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85B2808B1DF10EEE00E0AC85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85B280921DF10EEE00E0AC85;
+			remoteInfo = JNetwork;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		32F7EEE200AF0412891CA574 /* Pods-JNetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JNetwork.release.xcconfig"; path = "Pods/Target Support Files/Pods-JNetwork/Pods-JNetwork.release.xcconfig"; sourceTree = "<group>"; };
+		82D35D568D071FAAE7825C06 /* Pods-JNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JNetwork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JNetwork/Pods-JNetwork.debug.xcconfig"; sourceTree = "<group>"; };
+		85B280931DF10EEE00E0AC85 /* JNetwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JNetwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85B280971DF10EEE00E0AC85 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		85B280991DF10EEE00E0AC85 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		85B2809A1DF10EEE00E0AC85 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		85B2809C1DF10EEE00E0AC85 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		85B2809D1DF10EEE00E0AC85 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		85B280A01DF10EEE00E0AC85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		85B280A21DF10EEE00E0AC85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		85B280A51DF10EEE00E0AC85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		85B280A71DF10EEE00E0AC85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85B280AC1DF10EEE00E0AC85 /* JNetworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JNetworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85B280B01DF10EEE00E0AC85 /* JNetworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JNetworkTests.m; sourceTree = "<group>"; };
+		85B280B21DF10EEE00E0AC85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85B280B71DF10EEE00E0AC85 /* JNetworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JNetworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85B280BB1DF10EEE00E0AC85 /* JNetworkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JNetworkUITests.m; sourceTree = "<group>"; };
+		85B280BD1DF10EEE00E0AC85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85B280CA1DF10F7700E0AC85 /* JBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBaseRequest.h; sourceTree = "<group>"; };
+		85B280CB1DF10F7700E0AC85 /* JBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBaseRequest.m; sourceTree = "<group>"; };
+		8D2EE962938A6787E463F992 /* libPods-JNetwork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JNetwork.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85B280901DF10EEE00E0AC85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A6FDF82B941892BDBF95F82 /* libPods-JNetwork.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85B280A91DF10EEE00E0AC85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85B280B41DF10EEE00E0AC85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BB961DDEC105AF07BA4294C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D2EE962938A6787E463F992 /* libPods-JNetwork.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		403F90457E7727091C5EBC61 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				82D35D568D071FAAE7825C06 /* Pods-JNetwork.debug.xcconfig */,
+				32F7EEE200AF0412891CA574 /* Pods-JNetwork.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		85B2808A1DF10EEE00E0AC85 = {
+			isa = PBXGroup;
+			children = (
+				85B280951DF10EEE00E0AC85 /* JNetwork */,
+				85B280AF1DF10EEE00E0AC85 /* JNetworkTests */,
+				85B280BA1DF10EEE00E0AC85 /* JNetworkUITests */,
+				85B280941DF10EEE00E0AC85 /* Products */,
+				403F90457E7727091C5EBC61 /* Pods */,
+				3BB961DDEC105AF07BA4294C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		85B280941DF10EEE00E0AC85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85B280931DF10EEE00E0AC85 /* JNetwork.app */,
+				85B280AC1DF10EEE00E0AC85 /* JNetworkTests.xctest */,
+				85B280B71DF10EEE00E0AC85 /* JNetworkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85B280951DF10EEE00E0AC85 /* JNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				85B280C91DF10F2400E0AC85 /* JNetwork */,
+				85B280991DF10EEE00E0AC85 /* AppDelegate.h */,
+				85B2809A1DF10EEE00E0AC85 /* AppDelegate.m */,
+				85B2809C1DF10EEE00E0AC85 /* ViewController.h */,
+				85B2809D1DF10EEE00E0AC85 /* ViewController.m */,
+				85B2809F1DF10EEE00E0AC85 /* Main.storyboard */,
+				85B280A21DF10EEE00E0AC85 /* Assets.xcassets */,
+				85B280A41DF10EEE00E0AC85 /* LaunchScreen.storyboard */,
+				85B280A71DF10EEE00E0AC85 /* Info.plist */,
+				85B280961DF10EEE00E0AC85 /* Supporting Files */,
+			);
+			path = JNetwork;
+			sourceTree = "<group>";
+		};
+		85B280961DF10EEE00E0AC85 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				85B280971DF10EEE00E0AC85 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		85B280AF1DF10EEE00E0AC85 /* JNetworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				85B280B01DF10EEE00E0AC85 /* JNetworkTests.m */,
+				85B280B21DF10EEE00E0AC85 /* Info.plist */,
+			);
+			path = JNetworkTests;
+			sourceTree = "<group>";
+		};
+		85B280BA1DF10EEE00E0AC85 /* JNetworkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				85B280BB1DF10EEE00E0AC85 /* JNetworkUITests.m */,
+				85B280BD1DF10EEE00E0AC85 /* Info.plist */,
+			);
+			path = JNetworkUITests;
+			sourceTree = "<group>";
+		};
+		85B280C91DF10F2400E0AC85 /* JNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				85B280CA1DF10F7700E0AC85 /* JBaseRequest.h */,
+				85B280CB1DF10F7700E0AC85 /* JBaseRequest.m */,
+			);
+			path = JNetwork;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85B280921DF10EEE00E0AC85 /* JNetwork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85B280C01DF10EEE00E0AC85 /* Build configuration list for PBXNativeTarget "JNetwork" */;
+			buildPhases = (
+				6E1519AF41E2F210147AA551 /* [CP] Check Pods Manifest.lock */,
+				85B2808F1DF10EEE00E0AC85 /* Sources */,
+				85B280901DF10EEE00E0AC85 /* Frameworks */,
+				85B280911DF10EEE00E0AC85 /* Resources */,
+				271D18188F9546922B379029 /* [CP] Embed Pods Frameworks */,
+				0EBCD77DC7F3083D461E96E7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JNetwork;
+			productName = JNetwork;
+			productReference = 85B280931DF10EEE00E0AC85 /* JNetwork.app */;
+			productType = "com.apple.product-type.application";
+		};
+		85B280AB1DF10EEE00E0AC85 /* JNetworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85B280C31DF10EEE00E0AC85 /* Build configuration list for PBXNativeTarget "JNetworkTests" */;
+			buildPhases = (
+				85B280A81DF10EEE00E0AC85 /* Sources */,
+				85B280A91DF10EEE00E0AC85 /* Frameworks */,
+				85B280AA1DF10EEE00E0AC85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85B280AE1DF10EEE00E0AC85 /* PBXTargetDependency */,
+			);
+			name = JNetworkTests;
+			productName = JNetworkTests;
+			productReference = 85B280AC1DF10EEE00E0AC85 /* JNetworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		85B280B61DF10EEE00E0AC85 /* JNetworkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85B280C61DF10EEE00E0AC85 /* Build configuration list for PBXNativeTarget "JNetworkUITests" */;
+			buildPhases = (
+				85B280B31DF10EEE00E0AC85 /* Sources */,
+				85B280B41DF10EEE00E0AC85 /* Frameworks */,
+				85B280B51DF10EEE00E0AC85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85B280B91DF10EEE00E0AC85 /* PBXTargetDependency */,
+			);
+			name = JNetworkUITests;
+			productName = JNetworkUITests;
+			productReference = 85B280B71DF10EEE00E0AC85 /* JNetworkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85B2808B1DF10EEE00E0AC85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = jacky;
+				TargetAttributes = {
+					85B280921DF10EEE00E0AC85 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = L9ALLF39KA;
+						ProvisioningStyle = Automatic;
+					};
+					85B280AB1DF10EEE00E0AC85 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = L9ALLF39KA;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 85B280921DF10EEE00E0AC85;
+					};
+					85B280B61DF10EEE00E0AC85 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = L9ALLF39KA;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 85B280921DF10EEE00E0AC85;
+					};
+				};
+			};
+			buildConfigurationList = 85B2808E1DF10EEE00E0AC85 /* Build configuration list for PBXProject "JNetwork" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 85B2808A1DF10EEE00E0AC85;
+			productRefGroup = 85B280941DF10EEE00E0AC85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85B280921DF10EEE00E0AC85 /* JNetwork */,
+				85B280AB1DF10EEE00E0AC85 /* JNetworkTests */,
+				85B280B61DF10EEE00E0AC85 /* JNetworkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85B280911DF10EEE00E0AC85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85B280A61DF10EEE00E0AC85 /* LaunchScreen.storyboard in Resources */,
+				85B280A31DF10EEE00E0AC85 /* Assets.xcassets in Resources */,
+				85B280A11DF10EEE00E0AC85 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85B280AA1DF10EEE00E0AC85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85B280B51DF10EEE00E0AC85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0EBCD77DC7F3083D461E96E7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JNetwork/Pods-JNetwork-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		271D18188F9546922B379029 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JNetwork/Pods-JNetwork-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E1519AF41E2F210147AA551 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85B2808F1DF10EEE00E0AC85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85B2809E1DF10EEE00E0AC85 /* ViewController.m in Sources */,
+				85B2809B1DF10EEE00E0AC85 /* AppDelegate.m in Sources */,
+				85B280981DF10EEE00E0AC85 /* main.m in Sources */,
+				85B280CC1DF10F7700E0AC85 /* JBaseRequest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85B280A81DF10EEE00E0AC85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85B280B11DF10EEE00E0AC85 /* JNetworkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85B280B31DF10EEE00E0AC85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85B280BC1DF10EEE00E0AC85 /* JNetworkUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		85B280AE1DF10EEE00E0AC85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85B280921DF10EEE00E0AC85 /* JNetwork */;
+			targetProxy = 85B280AD1DF10EEE00E0AC85 /* PBXContainerItemProxy */;
+		};
+		85B280B91DF10EEE00E0AC85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85B280921DF10EEE00E0AC85 /* JNetwork */;
+			targetProxy = 85B280B81DF10EEE00E0AC85 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		85B2809F1DF10EEE00E0AC85 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85B280A01DF10EEE00E0AC85 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		85B280A41DF10EEE00E0AC85 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85B280A51DF10EEE00E0AC85 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		85B280BE1DF10EEE00E0AC85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		85B280BF1DF10EEE00E0AC85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85B280C11DF10EEE00E0AC85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82D35D568D071FAAE7825C06 /* Pods-JNetwork.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L9ALLF39KA;
+				INFOPLIST_FILE = JNetwork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jakcy.test.JNetwork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		85B280C21DF10EEE00E0AC85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32F7EEE200AF0412891CA574 /* Pods-JNetwork.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L9ALLF39KA;
+				INFOPLIST_FILE = JNetwork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jakcy.test.JNetwork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		85B280C41DF10EEE00E0AC85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = L9ALLF39KA;
+				INFOPLIST_FILE = JNetworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jakcy.test.JNetworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JNetwork.app/JNetwork";
+			};
+			name = Debug;
+		};
+		85B280C51DF10EEE00E0AC85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = L9ALLF39KA;
+				INFOPLIST_FILE = JNetworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jakcy.test.JNetworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JNetwork.app/JNetwork";
+			};
+			name = Release;
+		};
+		85B280C71DF10EEE00E0AC85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = L9ALLF39KA;
+				INFOPLIST_FILE = JNetworkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jakcy.test.JNetworkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JNetwork;
+			};
+			name = Debug;
+		};
+		85B280C81DF10EEE00E0AC85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = L9ALLF39KA;
+				INFOPLIST_FILE = JNetworkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jakcy.test.JNetworkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JNetwork;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85B2808E1DF10EEE00E0AC85 /* Build configuration list for PBXProject "JNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85B280BE1DF10EEE00E0AC85 /* Debug */,
+				85B280BF1DF10EEE00E0AC85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85B280C01DF10EEE00E0AC85 /* Build configuration list for PBXNativeTarget "JNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85B280C11DF10EEE00E0AC85 /* Debug */,
+				85B280C21DF10EEE00E0AC85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85B280C31DF10EEE00E0AC85 /* Build configuration list for PBXNativeTarget "JNetworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85B280C41DF10EEE00E0AC85 /* Debug */,
+				85B280C51DF10EEE00E0AC85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85B280C61DF10EEE00E0AC85 /* Build configuration list for PBXNativeTarget "JNetworkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85B280C71DF10EEE00E0AC85 /* Debug */,
+				85B280C81DF10EEE00E0AC85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85B2808B1DF10EEE00E0AC85 /* Project object */;
+}

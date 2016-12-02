@@ -1,0 +1,3 @@
+target 'JNetwork' do
+    pod 'AFNetworking'
+end
